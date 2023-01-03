@@ -1,0 +1,6 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 148px;
+    padding: 0;
+}
