@@ -1,5 +1,12 @@
-.cover_title {
-position: absolute;
-top: 50%;
-right: 50%;
+.cover__title {
+    text-decoration: none;
+    margin: 245px auto 32px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    z-index: 2;
 }
