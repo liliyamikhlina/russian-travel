@@ -6,3 +6,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+@media (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        margin-bottom: 48px;
+        row-gap: 32px;
+    }
+}

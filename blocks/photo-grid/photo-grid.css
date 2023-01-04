@@ -7,3 +7,26 @@
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 16px;
 }
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 88px 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 64px 16px;
+        row-gap: 12px;
+    }
+}
+

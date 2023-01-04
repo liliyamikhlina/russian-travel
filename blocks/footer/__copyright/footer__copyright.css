@@ -9,3 +9,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 320px) {
+    .footer__copyright {
+        text-align: left;
+    }
+}
