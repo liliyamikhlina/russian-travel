@@ -13,3 +13,5 @@ Grid-layout
 HTML. 
 CSS. 
 Git. 
+
+[Ссылка на проект](https://liliyamikhlina.github.io/russian-travel/)
