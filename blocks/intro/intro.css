@@ -1,11 +1,11 @@
 .intro {
     display: flex;
     flex-direction: column;
-    margin: 92px 148px 0 0;
+    margin: 92px 0 0 148px;
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .intro {
     margin: 88px 24px 0;
     }

@@ -1,7 +1,7 @@
 .header__lang-link {
     text-decoration: none;
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -9,10 +9,14 @@
     text-align: right;
 }
 
-@media (max-width: 320px) {
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
+
+
+@media (max-width: 767px) {
     .header__lang-link {
       font-size: 18px;
       line-height: 20px;
     }
   }
-
