@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .place__link {
         margin-left: 16px;
     }
