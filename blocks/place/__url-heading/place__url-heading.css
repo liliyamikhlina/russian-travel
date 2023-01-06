@@ -10,7 +10,7 @@
     color: #AAAAAA;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .place__url-heading {
         margin-left: 16px;
     }
