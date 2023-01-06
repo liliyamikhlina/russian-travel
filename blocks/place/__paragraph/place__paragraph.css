@@ -9,13 +9,13 @@
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .place__paragraph {
        margin: 0 16px;
     }
