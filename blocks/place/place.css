@@ -7,7 +7,7 @@
     grid-template-rows: repeat(2, min-content);
     column-gap: 40px;
     row-gap: 48px;
-}
+} 
 
 .place:last-of-type {
     margin-bottom: 0;
