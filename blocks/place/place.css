@@ -7,7 +7,7 @@
     grid-template-rows: repeat(2, min-content);
     column-gap: 40px;
     row-gap: 48px;
-}
+} 
 
 .place:last-of-type {
     margin-bottom: 0;
@@ -25,14 +25,5 @@
         grid-template-columns: 340px 1fr;
         margin-bottom: 73px;
         column-gap: 28px;
-    }
-}
-
-@media (max-width: 767px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin-bottom: 50px;
-        row-gap: 32px;
     }
 }
