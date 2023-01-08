@@ -18,7 +18,7 @@
 @media (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
-        margin: 88px 24px;
+        margin: 88px 24px 0;
     }
 }
 
@@ -29,4 +29,3 @@
         row-gap: 12px;
     }
 }
-
